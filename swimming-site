@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Плавание</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Плавание</h1>
+        <nav>
+            <ul>
+                <li><strong>Главная</strong></li>
+                <li><a href="techniques.html">Техники</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+
+    <div id="top">
+        <p><strong>Содержание этой страницы:</strong></p>
+        <ul>
+            <li><a href="#about">О плавании</a></li>
+            <li><a href="#benefits">Зачем плавать</a></li>
+            <li><a href="#schedule">Расписание тренировок (таблица)</a></li>
+            <li><a href="#contact">Обратная связь (форма)</a></li>
+        </ul>
+        <hr>
+    </div>
+
+
+    <section id="about">
+        <h2>О плавании</h2>
+        <p>Плавание — это вид спорта и способ поддерживать здоровье. Развивает выносливость, укрепляет мышцы и щадит
+            суставы.</p>
+
+
+        <a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5" target="_blank"
+            rel="noopener">
+            <img src="https://1.downloader.disk.yandex.ru/preview/e4b9284b28febd72a12fa5334ce6b53b2aa5b4883c4b9b7af38cbb001f6629c8/inf/471JdXOFjiU3Xda8gAIq60ssGh3bb-rBYyY4t94y-b3nLSyyhcsXV-W7hp9sGx8ZfVmsFGsdx5TqmkFNVQ_HEQ%3D%3D?uid=1130000067492822&filename=%D0%BF%D0%BB%D0%B0%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=1130000067492822&tknv=v3&size=2940x1662"
+                alt="Соревнования по плаванию в бассейне">
+        </a>
+
+        <p>Также можно посетить сайт
+            <a href="https://www.worldaquatics.com/" target="_blank" rel="noopener">World Aquatics</a>.
+        </p>
+        <hr>
+    </section>
+
+
+    <section id="benefits">
+        <h2>Зачем плавать</h2>
+        <p>Пример <strong>ненумерованного списка</strong>:</p>
+        <ul>
+            <li>Улучшает работу сердца и лёгких</li>
+            <li>Развивает все группы мышц</li>
+            <li>Подходит для восстановления после травм</li>
+            <li>Снимает стресс и улучшает сон</li>
+        </ul>
+        <hr>
+    </section>
+
+
+    <section id="schedule">
+        <h2>Расписание тренировок (таблица)</h2>
+
+
+        <table border="1" cellpadding="6" cellspacing="0" width="100%">
+            <caption><strong>Расписание тренировок</strong></caption>
+            <thead>
+                <tr>
+                    <th>День</th>
+                    <th>Время</th>
+                    <th>Группа</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Понедельник</td>
+                    <td>18:00–19:00</td>
+                    <td>Новички</td>
+                </tr>
+                <tr>
+                    <td>Среда</td>
+                    <td>18:00–19:30</td>
+                    <td>Продвинутые</td>
+                </tr>
+                <tr>
+                    <td>Пятница</td>
+                    <td>17:30–18:30</td>
+                    <td>Дети</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><a href="#top">Вернуться к содержанию ↑</a></p>
+        <hr>
+    </section>
+
+
+    <section id="contact">
+        <h2>Обратная связь (форма)</h2>
+        <p>Форма отправляет данные на учебный сервер.</p>
+
+
+        <form action="https://httpbin.org/post" method="post">
+            <p>
+                <label>Ваше имя:
+                    <input type="text" name="name" required>
+                </label>
+            </p>
+
+            <p>
+                <label>Email:
+                    <input type="email" name="email" required>
+                </label>
+            </p>
+
+            <p>
+                <label>Ваш уровень:
+                    <select name="level" required>
+                        <option value="">Выберите...</option>
+                        <option>Новичок</option>
+                        <option>Средний</option>
+                        <option>Продвинутый</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="checkbox" name="agree" required>
+                    Я согласен(а) на обработку данных
+                </label>
+            </p>
+
+            <p>
+                <label>Сообщение:<br>
+                    <textarea name="message" rows="4" cols="40"
+                        placeholder="Хочу записаться на пробное занятие..."></textarea>
+                </label>
+            </p>
+
+            <p>
+                <button type="submit">Отправить</button>
+            </p>
+        </form>
+    </section>
+</body>
+
+</html>
